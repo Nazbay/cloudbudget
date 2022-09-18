@@ -1,0 +1,710 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* NAVBAR */
+
+.navbar{
+    display: grid;
+    grid-template-columns:  1fr 2fr 1fr 1fr;
+    /* grid-auto-rows: 100px; */
+}
+
+
+.main{
+    grid-column: 1/5;
+    grid-row: 2/3;
+    padding: 18em;
+    text-align: center;
+ 
+}
+
+.main h1{
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+color: #FFFFFF;
+}
+
+.main p{
+    position: relative;
+    left: 9em;
+    font-family: 'Lato',sans-serif;
+    width: 19em;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+color: #FFFFFF;
+}
+
+
+.main button{
+    position: relative;
+    left: 1em;
+    background-color: #FFFFFF;
+    color:#ED4C5C;
+    border-radius: 6px;
+    width: 160px;
+height: 50px;
+border: 0;
+transition: box-shadow 0.2s;
+}
+
+.navbar > div {
+    background: url('./photo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+  
+}
+
+.login button{
+    border: 1px solid #FFFFFF;
+border-radius: 6px;
+width: 100px;
+height: 40px;
+background-color:transparent;
+color: #fff;
+}
+
+.logo h1{
+    /* color: #FFFFFF; */
+    position: relative;
+    left:2em;
+    top: -1.4em;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+color:#fff;
+}
+
+.logo img{
+    position: relative;
+    top:0.7em;
+}
+
+.menu ul{
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+align-items: center;
+text-transform: uppercase;
+list-style-type: none;
+    color: #fff; 
+}
+
+.menu li{
+    display: inline;
+    padding: 1em;
+
+}
+
+.menu{
+    padding: 4em 4em 1em 6em;
+    width:38em;
+}
+.logo{
+    padding: 4em 1em 1em 8em;
+}
+
+.lang{
+
+    padding: 4em 1em 1em 1em;
+}
+
+.lang p{
+    position: relative;
+    left: 5em;
+    top: 0.2em;
+    width: 3em;
+    margin: -2em;
+    color:#fff;
+}
+
+.lang .vector{
+    position: relative;
+    left:6em;
+    top:1em;
+}
+
+.login{
+    padding: 4em 8em 1em 1em;
+}
+
+
+
+
+
+
+
+
+
+
+.overview{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    text-align: center;
+    padding: 6em 6em 6em 8em;
+
+}
+
+.overview .text{
+    text-align: start;
+}
+
+.overview .text h1{
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+}
+
+
+.overview .text p{
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+width: 32em;
+}
+
+.overview_text{
+    color:#ED4C5C;;
+}
+
+.overview_button{
+    position: absolute;
+    top: 80em;
+    left:49em;
+    
+    width: 0;
+    border: 30px solid #ED4C5C;
+    border-radius: 35px;
+}
+
+.photo i{
+    position: absolute;
+    top: 81.3em;
+    left: 50.7em;
+    color: #fff;
+}
+
+
+
+
+
+.features{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    text-align: center;
+    padding: 6em 6em 12em 6em;
+    background: #FAFAFA;
+    
+    
+}
+
+.features .text{
+    grid-column: 1/4;
+    
+}
+
+.features .text h1{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+
+
+
+
+
+
+
+
+.features_ground{
+    position: absolute;
+    top: 116em;
+    left:10em;
+    border: 8em solid #fff;
+    border-width: 6em 9em ;
+    
+    border-radius:1em;
+}
+
+.features_ground h1{
+    position: absolute;
+    top: -5em;
+    left: -7em;
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+width: 14em;
+    
+}
+
+.features_ground p{
+    position: absolute;
+    top: -2em;
+    left: -8.5em;
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+width: 17em;
+}
+
+.card-1_text {
+    position: absolute;
+    top: 166em;
+    left:16.7em;
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+width: 17em;
+color:  #ED4C5C;
+}
+
+
+
+
+
+
+
+.features_ground-2{
+    position: absolute;
+    top: 116em;
+    left:36em;
+    border: 8em solid #fff;
+    border-width: 6em 9em ;
+    
+    border-radius:1em;
+}
+
+.features_ground-2 h1{
+    position: absolute;
+    top: -5em;
+    left: -7em;
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+width: 14em;
+    
+}
+
+.features_ground-2 p{
+    position: absolute;
+    top: -2em;
+    left: -8.5em;
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+width: 17em;
+}
+
+.card-2_text {
+    position: absolute;
+    top: 166em;
+    left:51.7em;
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+width: 17em;
+color:  #ED4C5C;
+}
+
+
+
+
+
+
+
+
+.features_ground-3{
+    position: absolute;
+    top: 116em;
+    left:62em;
+    border: 8em solid #fff;
+    border-width: 6em 9em ;
+    
+    border-radius:1em;
+}
+
+
+.features_ground-3 h1{
+    position: absolute;
+    top: -5em;
+    left: -7em;
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+width: 14em;
+    
+}
+
+.features_ground-3 p{
+    position: absolute;
+    top: -2em;
+    left: -8.5em;
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+width: 17em;
+}
+
+.card-3_text {
+    position: absolute;
+    top: 166em;
+    left:86.7em;
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+width: 17em;
+color:  #ED4C5C;
+}
+
+
+
+
+
+
+.technology{
+    display: grid;
+    grid-template-columns:  2fr 2fr 2fr 2fr;
+    text-align: center;
+    padding: 6em 6em 6em 6em;
+}
+
+.technology .text{
+    grid-column: 1/5;
+    position: relative;
+    top: -4em;
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+}
+
+
+.technology .card-1 h1{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+}
+
+.technology .card-1 p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    width: 22em;
+}
+
+
+
+.technology .card-2 h1{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+}
+
+.technology .card-2 p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    width: 22em;
+}
+
+
+.technology .card-3 h1{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.technology .card-3 p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    width: 22em;
+}
+
+
+
+.technology .card-4 h1{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.technology .card-4 p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    width: 22em;
+}
+
+
+.technology .number-1{
+    position: absolute;
+    top: 23.2em;
+    left: 2em;
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+color: rgba(16, 16, 16, 0.08);
+}
+
+
+
+.technology .number-2{
+    position: absolute;
+    top: 23.2em;
+    left: 5.1em;
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+color: rgba(16, 16, 16, 0.08);
+}
+
+
+.technology .number-3{
+    position: absolute;
+    top: 23.2em;
+    left: 8.2em;
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+color: rgba(16, 16, 16, 0.08);
+}
+
+
+.technology .number-4{
+    position: absolute;
+    top: 23.2em;
+    left: 11.3em;
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+color: rgba(16, 16, 16, 0.08);
+}
+
+
+.contact{
+    display: grid;
+    grid-template-columns:  1fr 1fr ;
+    text-align: center;
+    padding: 8em 8em 8em 8em;
+    background: #ED4C5C;
+
+
+}
+
+
+
+.contact .text a{
+    text-decoration: none;
+}
+
+.contact .text i{
+    color:white;
+    padding-right: 25px;
+    padding-top: 40px;
+}
+
+
+
+
+.contact .text{
+    text-align: start;
+}
+
+.contact .text h1{
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 330;
+font-size: 36px;
+
+color: #fff;
+width: 12em;
+
+}
+
+.contact .text p{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+
+color: #fff;
+width: 32em;
+
+}
+
+
+.auth{
+    display: grid;
+    grid-template-columns:  1fr 1fr ;
+    text-align: center;
+    padding: 6em 6em 6em 8em;
+}
+
+.auth__login button{
+    position: relative;
+    left: -15em;
+    top: 1em;
+    background-color: #ED4C5C;;
+    color: #fff;
+    border-radius: 6px;
+    width: 160px;
+    height: 50px;
+    border: 0;
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+}
+
+
+.auth .text{
+    text-align: start;
+}
+
+.name-1{
+    padding: 1em;
+    display: inline;
+    left:-2.3em;
+    position: relative;
+}
+
+.name-2{
+    padding: 1em;
+    position: relative;
+    display: inline;
+    left: -2.9em;
+  
+}
+.name-1 #fname {
+
+    width: 230px;
+height: 50px;
+border: 1px solid #333333;
+border-radius: 6px;
+}
+
+.name-2 #lname {
+   
+position: relative;
+
+    width: 230px;
+height: 50px;
+border: 1px solid #333333;
+border-radius: 6px;
+}
+
+
+
+
+
+
+.phone #phone{
+    position: relative;
+    left: -0.1em;
+    width: 500px;
+height: 50px;
+border: 1px solid #333333;
+border-radius: 6px;
+}
+
+.phone{
+    width: 1em;
+    padding: 1em;
+
+}
+
+.choose #list{
+    position: relative;
+    left: -2.9em;
+    width: 510px;
+    height: 50px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+}
+
+.info{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    padding: 6em 8em 6em 8em;
+    background: #FAFAFA;
+}
+
+
+.info h1{
+font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+}
+
+.info p{
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+}
+
+.info li{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+list-style-type: none;
+}
+
+.info ul{
+    padding: 0;
+
+}
+
+.text-1 p{
+    width: 15em;
+}
+
+.icons i{
+    padding-right: 20px;
+}
+
+img .background{
+    width: 100%;
+}
