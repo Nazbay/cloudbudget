@@ -55,7 +55,7 @@ transition: box-shadow 0.2s;
 }
 
 .navbar > div {
-    background: url('./photo.jpg');
+    background: url('.photos/photo.jpg');
     background-size: cover;
     background-attachment: fixed;
   
