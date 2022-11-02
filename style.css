@@ -1,3 +1,19 @@
+@font-face {
+    font-family: "Lato";
+    src : url("fonts/Lato/Lato-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: "Lato";
+    src : url("fonts/Lato/Lato-Bold.ttf") format("truetype");
+    font-weight: 600;
+}
+
+
+
+
 body{
     padding: 0;
     margin: 0;
@@ -12,6 +28,7 @@ body{
     grid-template-columns:  1fr 2fr 1fr 1fr;
     /* grid-auto-rows: 100px; */
 }
+
 
 
 .main{
@@ -55,7 +72,7 @@ transition: box-shadow 0.2s;
 }
 
 .navbar > div {
-    background: url('.photos/photo.jpg');
+    background: url("/photos/photo.jpg");
     background-size: cover;
     background-attachment: fixed;
   
@@ -112,11 +129,13 @@ list-style-type: none;
     width:38em;
 }
 .logo{
+ 
     padding: 4em 1em 1em 8em;
 }
 
 .lang{
-
+ font-family: 'Lato',sans-serif;
+    font-weight: 400;
     padding: 4em 1em 1em 1em;
 }
 
@@ -137,6 +156,8 @@ list-style-type: none;
 
 .login{
     padding: 4em 8em 1em 1em;
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
 }
 
 
@@ -403,6 +424,8 @@ font-size: 22px;
 }
 
 
+
+
 .technology .card-1 h1{
     font-family: 'Lato',sans-serif;
     font-style: normal;
@@ -416,7 +439,8 @@ font-size: 22px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    width: 22em;
+    width: 16em;
+    padding-left: 40px;
 }
 
 
@@ -427,6 +451,7 @@ font-size: 22px;
     font-weight: 700;
     font-size: 18px;
     margin: 0;
+
 }
 
 .technology .card-2 p{
@@ -434,7 +459,8 @@ font-size: 22px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    width: 22em;
+    width: 16em;
+    padding-left: 40px;
 }
 
 
@@ -443,6 +469,7 @@ font-size: 22px;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
+    margin-top: 10px;
 }
 
 .technology .card-3 p{
@@ -450,7 +477,8 @@ font-size: 22px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    width: 22em;
+    width: 16em;
+    padding-left: 40px;
 }
 
 
@@ -460,6 +488,8 @@ font-size: 22px;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
+    margin-top: 10px;
+
 }
 
 .technology .card-4 p{
@@ -467,13 +497,14 @@ font-size: 22px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    width: 22em;
+    width: 16em;
+    padding-left: 40px;
 }
 
 
 .technology .number-1{
     position: absolute;
-    top: 23.2em;
+    top: 23.5em;
     left: 2em;
     font-family: 'Lato',sans-serif;
 font-style: normal;
@@ -486,7 +517,7 @@ color: rgba(16, 16, 16, 0.08);
 
 .technology .number-2{
     position: absolute;
-    top: 23.2em;
+    top: 23.5em;
     left: 5.1em;
     font-family: 'Lato',sans-serif;
 font-style: normal;
@@ -498,7 +529,7 @@ color: rgba(16, 16, 16, 0.08);
 
 .technology .number-3{
     position: absolute;
-    top: 23.2em;
+    top: 23.5em;
     left: 8.2em;
     font-family: 'Lato',sans-serif;
 font-style: normal;
@@ -510,7 +541,7 @@ color: rgba(16, 16, 16, 0.08);
 
 .technology .number-4{
     position: absolute;
-    top: 23.2em;
+    top: 23.5em;
     left: 11.3em;
     font-family: 'Lato',sans-serif;
 font-style: normal;
@@ -571,6 +602,23 @@ width: 32em;
 
 }
 
+.auth .text p{
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+
+}
+
+.auth .text h1{
+    font-family: 'Lato',sans-serif;
+    font-weight: 600;
+
+}
+
+
+.auth__login{
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+}
 
 .auth{
     display: grid;
